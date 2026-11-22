@@ -6,8 +6,7 @@
         xmlns:local="clr-namespace:UP02"
         mc:Ignorable="d" Width="800"
         Icon="/Images/icon.png"
-        Title="CatalogWindow"
-        Loaded="Window_Loaded">
+        Title="CatalogWindow" Loaded="Window_Loaded">
     <Grid>
         <WrapPanel>
             <StackPanel Margin="10">

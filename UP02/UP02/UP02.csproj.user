@@ -5,10 +5,16 @@
     <Compile Update="CatalogWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="SostavWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="TovarWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="ZakaziWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ZakazWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>

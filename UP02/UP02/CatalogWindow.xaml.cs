@@ -324,6 +324,8 @@ namespace UP02
         private void Zakazi_btn_Click(object sender, RoutedEventArgs e)
         {
             ZakaziWindow zw = new ZakaziWindow(currentUser);
+            zw.Show();
+            Close();
         }
     }
 }
