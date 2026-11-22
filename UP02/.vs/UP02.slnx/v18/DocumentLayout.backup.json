@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Mistrik\\OneDrive\\Desktop\\UP02\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6CCFA2FC-3B11-A43A-ED59-2C94B6089350}|UP02\\UP02.csproj|c:\\users\\mistrik\\onedrive\\desktop\\up02\\up02\\catalogwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{6CCFA2FC-3B11-A43A-ED59-2C94B6089350}|UP02\\UP02.csproj|solutionrelative:up02\\catalogwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6CCFA2FC-3B11-A43A-ED59-2C94B6089350}|UP02\\UP02.csproj|c:\\users\\mistrik\\onedrive\\desktop\\up02\\up02\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{6CCFA2FC-3B11-A43A-ED59-2C94B6089350}|UP02\\UP02.csproj|solutionrelative:up02\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6CCFA2FC-3B11-A43A-ED59-2C94B6089350}|UP02\\UP02.csproj|c:\\users\\mistrik\\onedrive\\desktop\\up02\\up02\\sostavwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{6CCFA2FC-3B11-A43A-ED59-2C94B6089350}|UP02\\UP02.csproj|solutionrelative:up02\\sostavwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{6CCFA2FC-3B11-A43A-ED59-2C94B6089350}|UP02\\UP02.csproj|c:\\users\\mistrik\\onedrive\\desktop\\up02\\up02\\catalogwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6CCFA2FC-3B11-A43A-ED59-2C94B6089350}|UP02\\UP02.csproj|solutionrelative:up02\\catalogwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6CCFA2FC-3B11-A43A-ED59-2C94B6089350}|UP02\\UP02.csproj|c:\\users\\mistrik\\onedrive\\desktop\\up02\\up02\\zakazwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{6CCFA2FC-3B11-A43A-ED59-2C94B6089350}|UP02\\UP02.csproj|solutionrelative:up02\\zakazwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{6CCFA2FC-3B11-A43A-ED59-2C94B6089350}|UP02\\UP02.csproj|c:\\users\\mistrik\\onedrive\\desktop\\up02\\up02\\sostavwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6CCFA2FC-3B11-A43A-ED59-2C94B6089350}|UP02\\UP02.csproj|solutionrelative:up02\\sostavwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6CCFA2FC-3B11-A43A-ED59-2C94B6089350}|UP02\\UP02.csproj|c:\\users\\mistrik\\onedrive\\desktop\\up02\\up02\\tovarwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -25,6 +21,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{6CCFA2FC-3B11-A43A-ED59-2C94B6089350}|UP02\\UP02.csproj|c:\\users\\mistrik\\onedrive\\desktop\\up02\\up02\\zakaziwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{6CCFA2FC-3B11-A43A-ED59-2C94B6089350}|UP02\\UP02.csproj|solutionrelative:up02\\zakaziwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CCFA2FC-3B11-A43A-ED59-2C94B6089350}|UP02\\UP02.csproj|c:\\users\\mistrik\\onedrive\\desktop\\up02\\up02\\zakazwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6CCFA2FC-3B11-A43A-ED59-2C94B6089350}|UP02\\UP02.csproj|solutionrelative:up02\\zakazwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6CCFA2FC-3B11-A43A-ED59-2C94B6089350}|UP02\\UP02.csproj|c:\\users\\mistrik\\onedrive\\desktop\\up02\\up02\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 20,
+          "SelectedChildIndex": 22,
           "Children": [
             {
               "$type": "Bookmark",
@@ -109,8 +109,12 @@
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "ZakazWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Mistrik\\OneDrive\\Desktop\\UP02\\UP02\\ZakazWindow.xaml",
               "RelativeDocumentMoniker": "UP02\\ZakazWindow.xaml",
@@ -122,7 +126,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "ZakaziWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Mistrik\\OneDrive\\Desktop\\UP02\\UP02\\ZakaziWindow.xaml",
               "RelativeDocumentMoniker": "UP02\\ZakaziWindow.xaml",
@@ -134,7 +138,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "TovarWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Mistrik\\OneDrive\\Desktop\\UP02\\UP02\\TovarWindow.xaml",
               "RelativeDocumentMoniker": "UP02\\TovarWindow.xaml",
@@ -158,7 +162,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CatalogWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Mistrik\\OneDrive\\Desktop\\UP02\\UP02\\CatalogWindow.xaml",
               "RelativeDocumentMoniker": "UP02\\CatalogWindow.xaml",
@@ -170,7 +174,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Mistrik\\OneDrive\\Desktop\\UP02\\UP02\\MainWindow.xaml",
               "RelativeDocumentMoniker": "UP02\\MainWindow.xaml",
@@ -190,8 +194,7 @@
               "RelativeToolTip": "UP02\\Models\\DBContext.cs",
               "ViewState": "AgIAABoAAAAAAAAAAAAuwCUAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-16T20:35:20.178Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-16T20:35:20.178Z"
             },
             {
               "$type": "Document",
@@ -203,12 +206,7 @@
               "RelativeToolTip": "UP02\\MainWindow.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-16T20:25:22.461Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "WhenOpened": "2026-11-16T20:25:22.461Z"
             }
           ]
         },

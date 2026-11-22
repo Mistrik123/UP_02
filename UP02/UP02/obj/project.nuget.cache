@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aITkl884WJs=",
+  "dgSpecHash": "b9fssD1t5aI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Mistrik\\OneDrive\\Desktop\\UP02\\UP02\\UP02.csproj",
+  "projectFilePath": "E:\\Projects4Kurs\\UP02\\UP_02\\UP02\\UP02\\UP02.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mistrik\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Mistrik\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
