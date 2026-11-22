@@ -1,0 +1,56 @@
+﻿<Window x:Class="UP02.TovarWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UP02"
+        mc:Ignorable="d"
+        Icon="/Images/icon.png"
+        Title="TovarWindow" Height="600" Width="400" Loaded="Window_Loaded">
+    <StackPanel HorizontalAlignment="Center">
+        <Image Name="Img" Width="200" HorizontalAlignment="Center"/>
+
+        <Grid HorizontalAlignment="Stretch" Margin="0, 10">
+            <TextBlock Text="Артикул товара"/>
+            <TextBox Name="Article" Width="100" HorizontalAlignment="Right"/>
+        </Grid>
+        
+        <Grid HorizontalAlignment="Stretch" Margin="0, 10">
+            <TextBlock Text="Название товара"/>
+            <TextBox Name="TovarName" Width="100" HorizontalAlignment="Right"/>
+        </Grid>
+
+        <Grid HorizontalAlignment="Stretch" Margin="0,10">
+            <TextBlock Text="Категория товара"/>
+            <ComboBox Name="Category" Width="100" HorizontalAlignment="Right"/>
+        </Grid>
+
+        <StackPanel HorizontalAlignment="Stretch" Margin="0,10">
+            <TextBlock Text="Описание товара"/>
+            <TextBox Name="Description" TextWrapping="Wrap" Height="100"/>
+        </StackPanel>
+
+        <Grid HorizontalAlignment="Stretch" Margin="0,10">
+            <TextBlock Text="Производитель"/>
+            <ComboBox Name="Proizvoditel" Width="100" HorizontalAlignment="Right"/>
+        </Grid>
+
+        <Grid HorizontalAlignment="Stretch" Margin="0,10">
+            <TextBlock Text="Поставщик"/>
+            <ComboBox Name="Postavshik" Width="100" HorizontalAlignment="Right"/>
+        </Grid>
+
+        <Grid HorizontalAlignment="Stretch" Margin="0,10">
+            <TextBlock Text="Цена товара"/>
+            <TextBox Name="Price" Width="100" HorizontalAlignment="Right"/>
+        </Grid>
+
+        <Grid HorizontalAlignment="Stretch" Margin="0,10">
+            <TextBlock Text="Ед. измерения"/>
+            <ComboBox Name="EdIzm" Width="100" HorizontalAlignment="Right"/>
+        </Grid>
+
+        <Button Name="Next_btn" Content="Добавить" Click="Next_btn_Click"/>
+        <Button Name="Delete_btn" Content="Удалить" Margin="0,10" Click="Delete_btn_Click"/>
+    </StackPanel>
+</Window>

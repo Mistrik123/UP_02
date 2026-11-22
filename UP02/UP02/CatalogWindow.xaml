@@ -1,0 +1,34 @@
+﻿<Window x:Class="UP02.CatalogWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UP02"
+        mc:Ignorable="d" Width="800"
+        Icon="/Images/icon.png"
+        Title="CatalogWindow"
+        Loaded="Window_Loaded">
+    <Grid>
+        <WrapPanel>
+            <StackPanel Margin="10">
+                <Button Name="Back_btn" Content="Выход" Padding="10,5" Margin="0,0,0,10" Click="Back_btn_Click"/>
+                <Button Name="Add_btn" Content="Новый товар" Padding="10,5" Margin="0,0,0,10" Click="Add_btn_Click"/>
+                <Button Name="Zakazi_btn" Content="Заказы" Padding="10,5" Margin="0,0,0,10" Click="Zakazi_btn_Click"/>
+            </StackPanel>
+
+            <StackPanel>
+                <TextBlock Name="FIO" Text="ФИО" HorizontalAlignment="Right" FontSize="15" Margin="10,5"/>
+                <WrapPanel HorizontalAlignment="Center" Name="FilterPanel">
+                    <TextBlock Text="Сортировка " VerticalAlignment="Center"/>
+                    <ComboBox Name="Sort" Width="100" Margin="0,5" Padding="10,5" VerticalAlignment="Center" SelectionChanged="Sort_SelectionChanged"/>
+                    <TextBlock Text=" Фильтр " Margin="10,0,0,0" VerticalAlignment="Center"/>
+                    <ComboBox Name="Filter" Width="100" Margin="0,5" Padding="10,5" VerticalAlignment="Center" SelectionChanged="Filter_SelectionChanged"/>
+                    <TextBlock Text=" Поиск " Margin="10,0,0,0" VerticalAlignment="Center"/>
+                    <TextBox Name="Search" Width="100"  Margin="0,5" Padding="10,5" VerticalAlignment="Center" TextChanged="Search_TextChanged"/>
+                    <Button Name="DeleteFilter_btn" Content="Сбросить" Padding="10,5" Margin="10,5" VerticalAlignment="Center" Click="DeleteFilter_btn_Click"/>
+                </WrapPanel>
+                <ListBox Name="TovarList" Height="500" HorizontalContentAlignment="Center" SelectionChanged="TovarList_SelectionChanged"/>
+            </StackPanel>
+        </WrapPanel>
+    </Grid>
+</Window>
